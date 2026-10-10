@@ -1,0 +1,10 @@
+CompileFlags:
+  Add:
+    - -Wall
+    - -Wextra
+    - -std=c11
+Completion:
+  ArgumentLists: FullPlaceholders
+  HeaderInsertion: IWYU
+InlayHints:
+  Enabled: true

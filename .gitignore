@@ -1,0 +1,8 @@
+build/
+docs/
+
+.env
+*.d
+*.o
+
+compile_commands.json
