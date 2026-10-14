@@ -1,0 +1,12 @@
+services:
+  notification-service:
+    build: .
+    # .env is optional when present it must define TELEGRAM_TOKEN
+    # and TELEGRAM_CHAT_ID (PORT may be set there too).
+    env_file:
+      - .env
+    environment:
+      PORT: ${PORT:-8080}
+    ports:
+      - "${PORT:-8080}:${PORT:-8080}"
+    restart: unless-stopped

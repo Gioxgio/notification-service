@@ -1,0 +1,12 @@
+.git
+.cache
+build/
+docs/
+
+.env
+.env.*
+
+.clangd
+.clang-format
+compile_commands.json
+*.md
